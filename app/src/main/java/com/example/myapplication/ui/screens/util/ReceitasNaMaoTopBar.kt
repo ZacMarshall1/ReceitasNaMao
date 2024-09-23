@@ -17,7 +17,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.myapplication.ui.theme.TitleColor
+import com.example.myapplication.ui.theme.TitleBarColor
 import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -46,6 +46,6 @@ fun ReceitasNaMaoTopBar(drawerState: DrawerState){
                 fontWeight = FontWeight(600)
             )
         },
-        colors = TopAppBarDefaults.topAppBarColors(TitleColor)
+        colors = TopAppBarDefaults.topAppBarColors(TitleBarColor)
     )
 }

@@ -80,7 +80,7 @@ fun ScreenOne(drawerState: DrawerState) {
 @Composable
 private fun BottomAppBarMinima(navController: NavController) {
 
-    NavigationBar(containerColor = Color(0xFF98D2FF)) {
+    NavigationBar(containerColor = Color(0xFFB604DA)) {
         NavigationBarItem(
             selected = true,
             onClick = {

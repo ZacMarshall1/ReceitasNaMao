@@ -34,6 +34,7 @@ import com.example.myapplication.ui.screens.ScreenOne
 import com.example.myapplication.ui.screens.ScreenThree
 import com.example.myapplication.ui.screens.ScreenTwo
 import kotlinx.coroutines.launch
+import androidx.compose.ui.Alignment
 
 object ReceitasNaMaoRoutes {
     val SCREEN_ONE_ROUTE = "Home"
@@ -106,14 +107,16 @@ private fun DrawerContent(
                 coroutineScope.launch {
                     drawerState.close()
                 }
-            }) {
+            })
+        {
             Icon(
                 //imageVector = Icons.Default.Call,
-                painter = painterResource(id = R.drawable.receita),
+                painter = painterResource(id = R.drawable.house),
                 contentDescription = "c",
-                modifier = Modifier.size(40.dp),
+                modifier = Modifier.size(25.dp),
                 tint = getColorTexto(ehRotaUm)
             )
+            Spacer(modifier = Modifier.width(5.dp))
             Text(text = "Home", fontSize = 25.sp,
                 color = getColorTexto(ehRotaUm))
         }

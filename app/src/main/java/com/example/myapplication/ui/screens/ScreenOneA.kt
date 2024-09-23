@@ -18,12 +18,12 @@ fun ScreenOneA(padding: PaddingValues) {
 
     var afazeres = mutableListOf(
         Afazer(
-            titulo = "Comprar um carro",
-            descricao = "Visitar concessionárias",
+            titulo = "Bolo de cenoura",
+            descricao = "Como fazer um bolo de cenoura",
             id = 1
         ),
         Afazer(
-            titulo = "Lavar roupas",
+            titulo = "",
             descricao = "Lavar roupas pela manhã",
             id = 2
         )
